@@ -1,0 +1,15 @@
+
+   main01.cpp ---+---> "std.h" -----+--->   <alloc.h>
+		 |                  +--->   <math.h>
+		 |                  +--->   <fstream.h>
+		 |                  +--->   <stdlib.h>
+		 |                  +--->   "cpptypes.hpp"
+		 |                  +--->   "cpptypes.hpp"
+		 |                  +--->   "math_cls.hpp"
+		 |                  +--->   "memarray.hpp"
+		 |                  +--->   "interval.hpp"
+		 |                  +--->   "polin`s.hpp"
+		 |                  +--->   "links.hpp"
+		 +---> "polin`s.cpp" --->   "soh.hpp" ----> <iomanip.h>
+		 +---> "util.cpp"    --->   <string.h>
+
